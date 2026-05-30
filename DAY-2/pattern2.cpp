@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-    int n = 5 , m = n * 2-2 ;
+    int n = 7 , m = n * 2-2 ;
     int left = 0 , right = m ;
     for(int i = 0 ; i < n ; i++){
         for(int j  = 0 ; j <= m ; j++){
