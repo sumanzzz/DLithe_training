@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+#pragma region USER_REGISTRATION
 using namespace std;
 void userRegister(){
     string username;
@@ -18,6 +19,9 @@ void userRegister(){
 
     cout<<"User registered Successfully!\nEmail :"<<email<<"\nUsername"<<username<<endl;
 }
+#pragma endregion
+
+#pragma region USER_LOGIN
 void userLogin(){
     string username;
     string password;
@@ -31,6 +35,9 @@ void userLogin(){
     cout<<"User login Successfull!\nUsername"<<username<<endl;
 
 }
+#pragma endregion
+
+#pragma region ADMIN
 void adminLogin(){
     string ad_username;
     string ad_password;
@@ -44,6 +51,8 @@ void adminLogin(){
     cout<<"Admin login Successfull!\nUsername"<<ad_username<<endl;
 
 }
+#pragma endregion
+
 int main(){
     int choice;
     
