@@ -2,12 +2,14 @@
 
 using namespace std;
 
-template<typename T>
-
-T sum(T a , T b){
+auto sum(auto a , auto b){
     return a + b;
 }
 int main(){
-    cout<<sum(3,4)<<endl;
+    int arr[4] = {1,2,3,4};
+    int i = 
 
-}
+}   
+/* 
+    int
+*/
