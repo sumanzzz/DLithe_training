@@ -38,6 +38,7 @@ string joinstring(vector<string> str){
     string res;
     for(string s : str){
         res += s;
+        res += " ";
     }
     return res;
 }
