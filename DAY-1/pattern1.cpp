@@ -15,4 +15,6 @@ int main(){
         k--;
         cout<<endl;
     }
+    
+    
 }
